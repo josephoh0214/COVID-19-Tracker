@@ -1,4 +1,4 @@
-## COVID-19 Tracker
+# COVID-19 Tracker
   ## Corona virus (COVID-19)
   We are we are currently living this pandemic and governments recommend or require citizens to stay isolated. We are wondering how it _affects different communities_ across the country (lifestyle, habits, jobs).
 
