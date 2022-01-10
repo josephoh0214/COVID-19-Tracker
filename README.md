@@ -1,6 +1,7 @@
-# COVID-19 Tracker
+# COVID-19 Tracker 
   We are currently living this pandemic and governments recommend or require citizens to stay isolated. How does that _affect different communities_ across the country (lifestyle, habits, jobs)?
-
+  
+- URL: https://josephoh0214.shinyapps.io/final-project-AF5/
 ## Examples of data driven project related to this domain
   - How many confirm cases/deaths each country/state has reported?
   - How are countries responding to the pandemic?
