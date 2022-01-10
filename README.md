@@ -1,6 +1,5 @@
 # COVID-19 Tracker
-  ## Corona virus (COVID-19)
-  We are we are currently living this pandemic and governments recommend or require citizens to stay isolated. We are wondering how it _affects different communities_ across the country (lifestyle, habits, jobs).
+  We are currently living this pandemic and governments recommend or require citizens to stay isolated. How does that _affect different communities_ across the country (lifestyle, habits, jobs)?
 
 ## Examples of data driven project related to this domain
   - How many confirm cases/deaths each country/state has reported?
