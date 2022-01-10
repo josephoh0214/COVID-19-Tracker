@@ -1,5 +1,5 @@
-## Domain of Interest
-  ### Corona virus (COVID-19)
+## COVID-19 Tracker
+  ## Corona virus (COVID-19)
   We are we are currently living this pandemic and governments recommend or require citizens to stay isolated. We are wondering how it _affects different communities_ across the country (lifestyle, habits, jobs).
 
 ## Examples of data driven project related to this domain
@@ -44,17 +44,17 @@ Dataset is a combination of multiple collections of data from the Food and Agric
   - This dataset was collected by John Hopkins University Center for Systems Science and Engineering. The aim of this data is to evaluate and analyze the changes in community activities as well as its relation to reduced confirmed cases of COVID-19.
   - There are 817 rows in this dataset for multiple countries.
   - There are 11 columns in this dataset.
-    - ISO: Code for representation of country names.
-    - Country: Names of countries
-    - Date: Date of the data were collected
-    - Retail & recreation: Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.
-    - Grocery & pharmacy: Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.
-    - Parks: Mobility trends for places like national parks, public beaches, marinas, dog parks, plazas, and public gardens.
-    - Transit stations: Mobility trends for places like public transport hubs such as subway, bus, and train stations.
-    - Workplaces: Mobility trends for places of work.
-    - Residential: Mobility trends for places of residence.
-    - Total cases: Total number of confirmed cases on each day.
-    - Fatalities: Total number of fatalities due to COVID-19 on each day.
+    > - ISO: Code for representation of country names.
+    > - Country: Names of countries
+    > - Date: Date of the data were collected
+    > - Retail & recreation: Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.
+    > - Grocery & pharmacy: Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.
+    > - Parks: Mobility trends for places like national parks, public beaches, marinas, dog parks, plazas, and public gardens.
+    > - Transit stations: Mobility trends for places like public transport hubs such as subway, bus, and train stations.
+    > - Workplaces: Mobility trends for places of work.
+    > - Residential: Mobility trends for places of residence.
+    > - Total cases: Total number of confirmed cases on each day.
+    > - Fatalities: Total number of fatalities due to COVID-19 on each day.
   - Questions that this dataset helps answer are:
     > - How is the quarantine life changing the lifestyle of the citizens in different countries?
     > - How effective is the stay-home order in terms of the spread and the fatalities of COVID-19?
