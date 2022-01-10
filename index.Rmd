@@ -1,0 +1,55 @@
+---
+title: "Midpoint Deliverable"
+author: "John Boyle, Nhat Trang, Joseph Oh, Jason Tsai"
+date: "5/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source("scripts/sumInfo.R")
+source("scripts/sumTable.R")
+source("scripts/chart1.R")
+source("scripts/chart2.R")
+source("scripts/chart_1.R")
+```
+
+## COVID-19 Data Analysis
+
+Our domain of interest is the recent outbreak of coronavirus. With this dataset, we analyzed how COVID-19 has impacted countries around the world. This dataset specifically analyzes the frequency of people's inhabitation of common areas including workplaces, parks, or transit stations over the time of February 23rd, to April 5th, when the most critical amount of the COVID-19 outbreak occured.
+
+## Quick Data
+
+The country that had the most cases during this timeframe was **`r most_cases_country[1]`** with **`r most_cases_country[2]`** cases. In **`r most_cases_country[1]`**, the frequency of park visitors on average changed **`r most_cases_country$park_avg`** percent each consecutive day in this period. The country least impacted by the pandemic in this timeframe is **`r least_cases_country[1]`**, with only **`r least_cases_country[2]`** cases. In **`r least_cases_country[1]`**, the frequency of park visitors on average changed **`r least_cases_country$park_avg`** percent each consecutive day in this period.
+
+The country that had the most death during this timeframe was **`r most_death_country[1]`** with **`r most_death_country[2]`** casualities. In **`r most_death_country[1]`**, the frequency of park visitors on average changed **`r most_death_country$park_avg`** percent each consecutive day in this time period. The country with the least amount of COVID-19 related deaths during this timeframe was **`r least_death_country[1]`**, with only **`r least_death_country[2]`** COVID-19 related casualities. In **`r least_death_country[1]`**, the frequency of park visitors on average changed **`r least_death_country$park_avg`** percent each consecutive day in this period.
+
+## Table of recorded countries:
+
+`r summary(data)`
+
+This table shows the total deaths and cases of each country throughout the time period. The table is organized by countries most impacted (most to least) according to COVID-19 related casualities during this period. Interesting information that this table reveals is that the number of cases does not necessarily correlate with the number of casualities. For example the US has far more cases than Italy during this timeframe, but less overall deaths. 
+
+## Data Chart
+### **Chart 1**
+`r chart1(data)`
+
+This chart visualizes the **gradual percentage change of people staying home after the outbreak of COVID-19.** The data is recorded within the timeframe from _Feb 23rd to April 5th of 2020._ The percent change was calculated each day.
+The four represented countries, **US, Spain, Italy, and France,** are filtered from the dataset purposefully due to the virus proving most fatal to those countries in this time period.
+This chart is included to find _correlation_ with another chart that depicts the total counts of confirmed cases increasing by each day. It further helps us seek how change in community mobility and increasing number of confirmed cases are related. What we see in this chart is that the more affected an individual country is, does not necessarily correlate with how rapid the percentage change is during this time period. For example the US has the smallest overall change of the four countries, but has the third most overall deaths.
+
+### **Chart 2**
+`r chart2(data)`
+
+This chart reveals the **trend of confirmed cases increasing by days** in four different country: **US, Spain, Italy, and France.** This chart was included to better seek the _correlation between mobility of citizens and the speed of the virus spreading within each country._ It reveals how each country shows different progression trends during this period which makes it easier to compare potential trends with inhabitation behaviors. For example the US has the most rapid increase in cases, yet one of the less impacted in terms of location trends.
+
+### **Chart 3**
+`r chart_3(data)`
+
+#### Human patterns of movement across different countries within first few months of Coronavirus Outbreak!
+The question we are attempting to answer with this chart is _on average, what are the different patterns of movement from people since the COVID-19 took affect while countries imposed various rules and regulations on businesses, people, and insitutions?_
+<<<<<<< HEAD
+The scatterplot compares the average movement of people by countries to the number of positive coronavirus cases within the timeframe of about 42 days since the COVID-19 took affect (Feburary 23, 2020). It reveals the different patterns by country, for example in the US the transit system appeared to be most impacted. However, the US as a whole appears a lot less impacted for location habits than it's charted neighbour Italy. Also, the countries with high coronavirus cases like Italy showed a decrease in percentage of people moving around, most likely because the country implemented rules to stay home after seing a surge in Coronavirus cases.
+
+=======
+The scatterplot compares the average movement of people by countries to the number of positive coronavirus cases within the timeframe of about 42 days since the COVID-19 took affect (Feburary 23, 2020). It reveals the different patterns by country, for example in the US the transit system appeared to be most impacted. However, the US as a whole appears a lot less impacted for location habits than it's charted neighbour Italy.
+>>>>>>> 23b9c5da3eeeb380626bb6d0f353991f9903ffc1
